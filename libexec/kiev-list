@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+source $_KIEV_ROOT/kiev.db
+for i in $(env | grep "kv_" | cut -d= -f1 ); do
+  eval r=\$$i; echo $(echo $i | sed -e 's/kv_//') $r;
+done
