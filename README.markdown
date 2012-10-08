@@ -2,7 +2,7 @@
 
 An embeddable key/value store for shell scripts
 
-Read the (blog post)[http://capotej.com/blog/2012/10/07/an-embedded-key-value-store-for-shell-scripts/] for more info.
+Read the [blog post](http://capotej.com/blog/2012/10/07/an-embedded-key-value-store-for-shell-scripts/) for more info.
 
 ## Installation
 
