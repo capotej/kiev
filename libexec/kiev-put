@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "export kv_$1=$2" >> $_KIEV_ROOT/kiev.db
+
