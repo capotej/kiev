@@ -1,4 +1,6 @@
 #!/bin/sh
+# Usage: kiev put <key> <value>
+# Summary: adds a key value pair
 
 set -e
 

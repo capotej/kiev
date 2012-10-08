@@ -1,4 +1,7 @@
 #!/bin/sh
+# Usage: kiev get <key>
+# Summary: get a key
+
 set -e
 
 source $_KIEV_ROOT/kiev.db

@@ -1,4 +1,6 @@
 #!/bin/sh
+# Usage: kiev list
+# Summary: list all key/value pairs
 
 set -e
 
