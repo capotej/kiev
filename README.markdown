@@ -2,6 +2,8 @@
 
 An embeddable key/value store for shell scripts
 
+Read the (blog post)[http://capotej.com/blog/2012/10/07/an-embedded-key-value-store-for-shell-scripts/] for more info.
+
 ## Installation
 
 Clone the repo into a directory:
@@ -13,9 +15,9 @@ Clone the repo into a directory:
 You can get/put values from anywhere using the absolute path
 
     $ /path/to/your/db/bin/kiev put foo bar
-    $ /path/to/your/db/bin/kiev get 
-    
-    
+    $ /path/to/your/db/bin/kiev get
+
+
 ## Commands
 
     Usage: kiev <command> [<args>]
@@ -28,3 +30,5 @@ You can get/put values from anywhere using the absolute path
        put                    adds a key value pair
 
     See 'kiev help <command>' for information on a specific command.
+
+
